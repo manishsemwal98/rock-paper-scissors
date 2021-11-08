@@ -9,7 +9,7 @@
   <version>1.0</version>
   <packaging>war</packaging>
 
-  <name>roshambo web application</name>
+  <name>Roshambo_Web_Application</name>
   <url>http://www.mcnz.com</url>
 
   <properties>
