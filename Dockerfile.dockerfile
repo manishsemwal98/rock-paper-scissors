@@ -1,3 +1,3 @@
-FROM tomcat:8.0
-MAINTAINER mugunthan
-COPY rps.war /usr/local/tomcat/webapps/
+FROM tomcat:latest
+MAINTAINER Manish Semwal
+ADD $(WORKSPACE)/target/roshambo.war /usr/local/tomcat/webapps/roshambo.war
