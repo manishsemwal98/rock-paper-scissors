@@ -1,3 +1,3 @@
 FROM tomcat
-MAINTAINER Manish Semwal
+MAINTAINER Manish_Semwal
 ADD $WORKSPACE/target/roshambo.war /usr/local/tomcat/webapps/roshambo.war
